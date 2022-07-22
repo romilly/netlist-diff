@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<netlist date="Fri Jul 22 16:54:06 2022" sketch="two-r.fzz">
+ <net>
+  <connector id="connector1" name="Pin 1">
+   <part label="R2" id="854402410" title="220Ω Resistor"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="Pin 0">
+   <part label="R2" id="854402410" title="220Ω Resistor"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="Pin 1">
+   <part label="R1" id="854402380" title="220Ω Resistor"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="Pin 0">
+   <part label="R1" id="854402380" title="220Ω Resistor"/>
+  </connector>
+ </net>
+</netlist>
