@@ -1,5 +1,4 @@
-NETLIST_FOR_555_BREADBOARD="""
-<?xml version='1.0' encoding='UTF-8'?>
+NETLIST_FOR_555_BREADBOARD="""<?xml version='1.0' encoding='UTF-8'?>
 <!-- Created with Fritzing (http://www.fritzing.org/) -->
 <netlist date="Thu Jul 21 14:20:53 2022" sketch="555.fzz">
  <net>

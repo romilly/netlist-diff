@@ -1,8 +1,8 @@
 import unittest
 
 
-class ComponentFinderTestCase(unittest.TestCase):
-    def test_something(self):
+class DiffTestCase(unittest.TestCase):
+    def test_(self):
         self.assertEqual(True, False)  # add assertion here
 
 
