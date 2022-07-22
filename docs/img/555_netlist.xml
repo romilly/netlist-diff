@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<netlist date="Thu Jul 21 14:20:53 2022" sketch="555.fzz">
+ <net>
+  <connector name="Pin 1" id="connector0">
+   <part label="U1" id="58220" title="555 Timer"/>
+  </connector>
+  <connector name="-" id="connector0">
+   <part label="C2" id="60670" title="Electrolytic Capacitor"/>
+  </connector>
+  <connector name="1" id="connector1">
+   <part label="C1" id="58510" title="Ceramic Capacitor"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="+" id="connector1">
+   <part label="C2" id="60670" title="Electrolytic Capacitor"/>
+  </connector>
+  <connector name="Pin 2" id="connector1">
+   <part label="U1" id="58220" title="555 Timer"/>
+  </connector>
+  <connector name="Pin 0" id="connector0">
+   <part label="R1" id="58400" title="330kΩ Resistor"/>
+  </connector>
+  <connector name="Pin 0" id="connector0">
+   <part label="R2" id="59130" title="220kΩ Resistor"/>
+  </connector>
+  <connector name="Pin 6" id="connector5">
+   <part label="U1" id="58220" title="555 Timer"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="Pin 1" id="connector1">
+   <part label="R1" id="58400" title="330kΩ Resistor"/>
+  </connector>
+  <connector name="Pin 3" id="connector2">
+   <part label="U1" id="58220" title="555 Timer"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="Pin 4" id="connector3">
+   <part label="U1" id="58220" title="555 Timer"/>
+  </connector>
+  <connector name="Pin 8" id="connector7">
+   <part label="U1" id="58220" title="555 Timer"/>
+  </connector>
+  <connector name="Pin 1" id="connector1">
+   <part label="R2" id="59130" title="220kΩ Resistor"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="Pin 5" id="connector4">
+   <part label="U1" id="58220" title="555 Timer"/>
+  </connector>
+  <connector name="0" id="connector0">
+   <part label="C1" id="58510" title="Ceramic Capacitor"/>
+  </connector>
+ </net>
+ <net>
+  <connector name="Pin 7" id="connector6">
+   <part label="U1" id="58220" title="555 Timer"/>
+  </connector>
+ </net>
+</netlist>
