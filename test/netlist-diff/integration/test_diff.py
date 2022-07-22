@@ -1,5 +1,6 @@
 import subprocess
 import unittest
+from hamcrest import assert_that, contains_string
 
 
 class DiffTestCase(unittest.TestCase):
@@ -11,6 +12,7 @@ class DiffTestCase(unittest.TestCase):
                                  ],
                                 capture_output=True)
         self.assertEqual(result.returncode, 0)
+        assert_that(result.stdout.decode('UTF8'), contains_string('No difference'))
 
 
 if __name__ == '__main__':
